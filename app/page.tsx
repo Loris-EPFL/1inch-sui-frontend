@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { Navbar } from "@/components/navbar";
 import { WalletAddresses } from "@/components/wallet-addresses";
+import { CrossChainSwap } from "@/components/cross-chain-swap";
 
 
 export default function Home() {
@@ -65,6 +66,11 @@ export default function Home() {
           {/* Wallet Addresses Section */}
           <div className="mt-16">
             <WalletAddresses />
+          </div>
+          
+          {/* Cross-Chain Swap Section */}
+          <div className="mt-16">
+            <CrossChainSwap />
           </div>
         </div>
        </main>
